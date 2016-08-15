@@ -8,7 +8,8 @@ URL:      https://github.com/savonet/ocaml-vorbis
 Source0:  https://github.com/savonet/ocaml-vorbis/releases/download/%{version}/ocaml-vorbis-%{version}.tar.gz
 
 BuildRequires: ocaml
-BuildRequires: libvorbis
+BuildRequires: libvorbis-devel
+Requires:      libvorbis
 
 %prep
 %setup -q 
