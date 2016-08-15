@@ -38,6 +38,9 @@ make install
 /usr/lib64/ocaml/vorbis/vorbis.cmx
 /usr/lib64/ocaml/vorbis/vorbis.cmxa
 /usr/lib64/ocaml/vorbis/vorbis.mli
+/usr/lib64/ocaml/vorbis/ogg_demuxer_vorbis_decoder.cmi
+/usr/lib64/ocaml/vorbis/ogg_demuxer_vorbis_decoder.cmx
+/usr/lib64/ocaml/vorbis/ogg_demuxer_vorbis_decoder.mli
 /usr/lib64/ocaml/vorbis/libvorbis_stubs.a
 /usr/lib64/ocaml/stublibs/dllvorbis_stubs.so
 /usr/lib64/ocaml/stublibs/dllvorbis_stubs.so.owner
