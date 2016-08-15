@@ -38,12 +38,6 @@ make install
 /usr/lib64/ocaml/vorbis/vorbis.cmx
 /usr/lib64/ocaml/vorbis/vorbis.cmxa
 /usr/lib64/ocaml/vorbis/vorbis.mli
-/usr/lib64/ocaml/vorbis/vorbis.cmxs
-/usr/lib64/ocaml/vorbis/vorbis_dynlink.mli
-/usr/lib64/ocaml/vorbis/vorbis_loader.cma
-/usr/lib64/ocaml/vorbis/vorbis_loader.cmi
-/usr/lib64/ocaml/vorbis/vorbis_loader.cmx
-/usr/lib64/ocaml/vorbis/vorbis_loader.cmxs
 /usr/lib64/ocaml/vorbis/libvorbis_stubs.a
 /usr/lib64/ocaml/stublibs/dllvorbis_stubs.so
 /usr/lib64/ocaml/stublibs/dllvorbis_stubs.so.owner
