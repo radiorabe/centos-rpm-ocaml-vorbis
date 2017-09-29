@@ -1,6 +1,6 @@
 Name:     ocaml-vorbis
 
-Version:  0.6.2
+Version:  0.7.0
 Release:  1
 Summary:  OCaml bindings for libvorbis
 License:  GPLv2+
@@ -10,6 +10,7 @@ Source0:  https://github.com/savonet/ocaml-vorbis/releases/download/%{version}/o
 BuildRequires: ocaml
 BuildRequires: ocaml-ogg
 BuildRequires: libvorbis-devel
+BuildRequires: ocaml-findlib
 Requires:      libvorbis
 
 %prep
