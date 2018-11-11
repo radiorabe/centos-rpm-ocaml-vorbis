@@ -1,13 +1,14 @@
 Name:     ocaml-vorbis
 
-Version:  0.7.0
-Release:  1
+Version:  0.7.1
+Release:  0.0%{dist}
 Summary:  OCaml bindings for libvorbis
 License:  GPLv2+
 URL:      https://github.com/savonet/ocaml-vorbis
 Source0:  https://github.com/savonet/ocaml-vorbis/releases/download/%{version}/ocaml-vorbis-%{version}.tar.gz
 
 BuildRequires: ocaml
+BuildRequires: ocaml-findlib
 BuildRequires: ocaml-ogg
 BuildRequires: libvorbis-devel
 BuildRequires: ocaml-findlib
@@ -51,5 +52,8 @@ OCAML bindings for libvorbis
 
 
 %changelog
-* Sun Jul  3 2016 Lucas Bickel <hairmare@rabe.ch>
+* Sun Nov 11 2018 Lucas Bickel <hairmare@rabe.ch> - 0.7.1-0.0
+- Bump to 0.7.1
+
+* Sun Jul  3 2016 Lucas Bickel <hairmare@rabe.ch> - 0.6.2-1
 - initial version, mostly stolen from https://www.openmamba.org/showfile.html?file=/pub/openmamba/devel/specs/ocaml-vorbis.spec
